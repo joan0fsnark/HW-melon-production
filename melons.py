@@ -34,10 +34,8 @@ class Melon(object):
 # FIXME: Add Squash class definition here.
 class Squash(Melon):
     """Winter Squash"""
-    weight = 4
-    robots.painterbot.paint(self)
 
-        def prep(self):
+    def prep(self):
         """Prepare the squash."""
 
         robots.cleanerbot.clean(self)
